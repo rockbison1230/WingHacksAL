@@ -55,12 +55,9 @@ function Landing(){
         </div>
     </div>
 
-    <div id="searchBar">
-    <input type="text" placeholder="Enter a state"/>
         <div className = "map-container">
         <Map id="myMap" /> {/* rendering map */}
         </div>
-    </div>
     </>   
     );
 }

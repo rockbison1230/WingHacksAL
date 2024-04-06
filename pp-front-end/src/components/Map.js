@@ -1,6 +1,6 @@
 // map scraped from https://www.npmjs.com/package/react-usa-map
 
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import USAMap from "react-usa-map";
 import Pin from './Pin';
 import './Map.css';
@@ -10,7 +10,6 @@ class Map extends Component {
   mapHandler = (event) => {
     alert(event.target.dataset.name);
   };
- 
   render() {
     return (
       <div className="map-container">

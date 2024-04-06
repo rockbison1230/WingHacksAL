@@ -3,7 +3,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa'; //import map pin emoji
 import './Pin.css'; 
 
 const Pin = ({ text, coordinates }) => {
-  const [showTextBox, setShowTextBox] = useState(false);
+  const [showTextBox, setShowTextBox] = useState(false); 
 
 
 // when clicked, pin shows text
