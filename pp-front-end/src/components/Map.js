@@ -37,14 +37,14 @@ class Map extends Component {
         <Pin text="University Homeless Women Center. Profides food for homeless and low income families in need. Address: 1450 University Ave f127, Riverside, CA 92507 Website: checkbca.org Phone Number: (951) 224-9438" coordinates={[320, 83]} />
         {/*WISEPlace*/} 
         <Pin text="WISEPlace. Provides women with safe shelter, counseling, and mental health services. Address: 1411 N Broadway, Santa Ana, CA 92706 Website: wiseplace.org Phone Number: (714) 542-3577" coordinates={[330, 60]} />
-        {/* */} 
-        <Pin text=": " coordinates={[300, 50]} />
-         {/* */} 
-        <Pin text=": " coordinates={[510, 738]} />
-        {/* */} 
-        <Pin text=": " coordinates={[510, 738]} />
-        {/* */} 
-        <Pin text=": " coordinates={[510, 738]} />
+        {/*Women's & Children's Crisis Shelter*/} 
+        <Pin text="Women's & Children's Crisis Shelter. Committed to providing safety, shelter, and hope to victims of domestic violence. Address: 7702 Washington Ave 2nd Floor, Whittier, CA 90602 Website: wccshope.org Phone Number: (562) 945-3937" coordinates={[300, 50]} />
+         {/*Good Shepherd Center For Homeless Women*/} 
+        <Pin text="Good Shepherd Center For Homeless Women. Offers core programs of selter, food, and employment services to guide homeless women to lives of independence. Address: 1671 Beverly Blvd, Los Angeles, CA 90026 Website: gschomeless.org Phone Number: (213) 235-1460" coordinates={[250, 30]} />
+        {/*Gardner Street Women's Bridge Housing Center*/} 
+        <Pin text="Gardner Street Women's Bridge Housing Center. Provides temporary housing and comprehensive services to women experiencing homelessness. Address: 1403 N Gardner St, Los Angeles, CA 90046 Phone Number: (209) 340-5990" coordinates={[200, 55]} />
+        {/*The Arroyo - Women's Shelter*/} 
+        <Pin text="The Arroyo - Women's Shelter. Provides housing and critical, life-saving services that end homelessness, for good. Address: 12860 Arroyo St, Sylmar, CA 91342 Website: lafh.org Phone Number: (747) 277-9507" coordinates={[172, 69]} />
       </div>
     );
   }
