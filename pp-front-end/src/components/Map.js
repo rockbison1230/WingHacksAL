@@ -49,6 +49,26 @@ class Map extends Component {
         <Pin text="The Arroyo - Women's Shelter. Provides housing and critical, life-saving services that end homelessness, for good. Address: 12860 Arroyo St, Sylmar, CA 91342 Website: lafh.org Phone Number: (747) 277-9507" coordinates={[172, 69]} />
       </div>
 
+
+      {/*Iowa Pins */}
+      <div className = "pins-counter">
+        {/*Micah House*/} 
+        <Pin text="" coordinates={[220, 400]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+        {/**/} 
+        <Pin text="" coordinates={[110, 290]} />
+      
+      </div>
+      
       {/*Montana Pins */}
       <div className = "pins-container">
          {/*Great Falls Rescue Mission Women's Shelter*/} 
