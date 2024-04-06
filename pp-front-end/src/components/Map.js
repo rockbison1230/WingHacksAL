@@ -17,7 +17,7 @@ class Map extends Component {
         {/* Grouping pins */}
         <div className="pins-container">
           {/* Women's Resource Center */} 
-          <Pin text="Women's Resource Center. A 501(C)3 nonprofit that provides women of all ages and backgrounds with support, resources, and services. Address: 340 S Tuttle Ave, Sarasota, FL 34237 Website: mywrc.org Phone Number: (941) 747-6797" coordinates={[510, 738]} />
+          <Pin text="Women's Resource Center. A 501(C)3 nonprofit that provides women of all ages and backgrounds with support, resources, and services. \Address: 340 S Tuttle Ave, Sarasota, FL 34237 Website: mywrc.org Phone Number: (941) 747-6797" coordinates={[510, 738]} />
           {/* Lotus House Women's Shelter*/}
           <Pin text="Lotus House Women's Shelter. The largest shelter for women and children in the country: provides shelter, resources, and comprehensive supportive services. Address: 217 NW 15th St, Miami, FL 33136 Website: lotushouse.org Phone Number: (305) 438-0556" coordinates={[530, 784]} />
           {/* Mary's Home of the Treasure Coast */}

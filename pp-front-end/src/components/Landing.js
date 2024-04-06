@@ -7,7 +7,7 @@ import Map from './Map'; //importing map component
 
 function Landing(){
     return(
-     <>   
+     <> 
      <div id='secondRectangle'>
 
         <div className='purposeBg'>
@@ -33,7 +33,7 @@ function Landing(){
                 </div>
                     <p>
                     Our map locates women's shelters within any state entered in the search field below.
-                    Using any of the pins which are generated depending onthe number of resources within
+                    Using any of the pins which are generated depending on the number of resources within
                     the state, you can then click on any to get the address, website, and phone number of
                     the organization.
                     </p>
@@ -43,13 +43,18 @@ function Landing(){
         <div className='thirdDk'>
             <div className='thirdDktext'>
                 <div className='thirdDkheader'>
-                <h3><strong>Dunno yet</strong></h3>
+                <h3><strong>How Can You Help?</strong></h3>
                 </div>
                     <p>
-                    Our map locates women's shelters within any state entered in the search field below.
-                    Using any of the pins which are generated depending onthe number of resources within
-                    the state, you can then click on any to get the location, address, and phone number of
-                    the organization.
+                        {/* https://yoppie.com/period-poverty */}
+                        <ul>
+                            <li>Choose menstruation products from brands that support ending period poverty.</li>
+                            <li>Donate to charity, either global or locally.</li>
+                            <li>Attend marches and events.</li>
+                            <li>Sign petitions. </li>
+                            <li>Donate period products.</li>
+                        </ul>
+
                     </p>
             </div>
         </div>
@@ -57,8 +62,10 @@ function Landing(){
 
         <div className = "map-container">
         <Map id="myMap" /> {/* rendering map */}
+        <div className = "container"></div>
         </div>
     </>   
     );
 }
+
 export default Landing;
