@@ -30,7 +30,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-40%, -200%);
+  transform: translate(-50%, -180%);
   width: 1000px;
   height: 200px;
   background: #FFF5F4;
@@ -38,11 +38,13 @@ a {
   z-index: -1;
 }
 
-.textbox-container{
+.textbox-container {
   position: absolute;
-  top: 50%;
+  top: 20%; 
   left: 50%;
-  transform: translate(-200%, -10%);
+  transform: translateX(-50%);
+  width: 80%; 
+  max-width: 600px; 
 }
 
 .textbox-container textarea {
@@ -55,4 +57,12 @@ a {
   resize: none;
   font-family: Arian, sans-serif;
   color: black;
+}
+
+.editable-text {
+  font-size: 18px; 
+}
+
+.bold {
+  font-weight: bold;
 }

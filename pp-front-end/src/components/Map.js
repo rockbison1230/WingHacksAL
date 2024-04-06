@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import USAMap from "react-usa-map";
+import './Map.css';
  
 class App extends Component {
   /* mandatory */
@@ -11,7 +12,7 @@ class App extends Component {
  
   render() {
     return (
-      <div style={{ marginTop: '250px', width: '100%', height: '100%' }}>
+      <div className="map-container">
         <USAMap onClick={this.mapHandler} />
       </div>
     );
