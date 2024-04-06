@@ -13,10 +13,14 @@ function Navbar(){
             <ul>
             <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>
 
-                <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">Purpose & Resources</a></li>
+                <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">  Purpose & Resources</a></li>
             <li> <Map /> </li> {/* rendering map */}
             </ul>
-          
+            <div className="background-container">
+                <div className="textbox-container">
+                    <textarea defaultValue="The purpose of this website and Basic Needs for Ladies Over Time (BLOT) is to bring attention to the global problem of period poverty. As of 2023, more than 35% of the world lacks necessities for feminine hygiene.  With this project, we aim to educate others on how serious and prevalent this issue is, as well as offer resources for support."></textarea>
+                </div>
+            </div>
         </nav>
     );
 }

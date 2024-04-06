@@ -23,3 +23,36 @@ a {
   align-items: center;
   padding: 10px;
 }
+
+/* pink background for 'Purpose' explanation */
+
+.background-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -200%);
+  width: 1000px;
+  height: 200px;
+  background: #FFF5F4;
+  border-radius: 174px;
+  z-index: -1;
+}
+
+.textbox-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -10%);
+}
+
+.textbox-container textarea {
+  width: 400%;
+  height: 600px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  font-family: Arian, sans-serif;
+  color: black;
+}

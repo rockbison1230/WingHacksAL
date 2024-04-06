@@ -11,7 +11,7 @@ class App extends Component {
  
   render() {
     return (
-      <div style={{ marginTop: '100px' }}>
+      <div style={{ marginTop: '250px', width: '100%', height: '100%' }}>
         <USAMap onClick={this.mapHandler} />
       </div>
     );
