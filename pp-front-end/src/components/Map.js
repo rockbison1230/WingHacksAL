@@ -51,22 +51,18 @@ class Map extends Component {
 
 
       {/*Iowa Pins */}
-      <div className = "pins-counter">
+      <div className = "pins-container">
         {/*Micah House*/} 
-        <Pin text="" coordinates={[220, 400]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-        {/**/} 
-        <Pin text="" coordinates={[110, 290]} />
-      
+        <Pin text= "Micah House. Provides a safe and nurturing environment with support services for families and individuals experiencing homelessness. Address: 1415 Avenue J, Council Bluffs, IA 51501 Website: themicahhouse.org Phone Number: (712) 323-4416" coordinates={[220, 479]} />
+        {/*Lotus Community Project*/} 
+        <Pin text= "Lotus Community Project. Strives to help single women and all family units create better lives for themselves. Address: 2980 170th St, Vincent, IA 50594 Website: lotuscommunityproject.org Phone Number: (515) 571-8802" coordinates={[205, 510]} />
+        {/*Young Women's Resource Center*/} 
+        <Pin text= "Young Women's Resource Center. Supports, educates, and advocates for girls and young women ages 10-24. Address: 818 5th Ave, Des Moines, IA 50309 Website: ywrc.org Phone Number: (515) 244-4901" coordinates={[225, 520]} />
+        {/*Salvation Army*/} 
+        <Pin text= "The Salvation Army Women & Children's Emergency Shelter. Supports homeless women and domestic abuse victims. Address: 603 S Hackett Rd, Waterloo, IA 50701 Phone Number: (319) 232-0397" coordinates={[209, 540]} />
+        {/*Shelter House*/} 
+        <Pin text= "Shelter House. Gives resources to tjose in need, such as health care, employment, and housing. Address: 429 Southgate Ave, Iowa City, IA 52240 Website: shelterhouseiowa.org
+        Phone Number: (319) 351-0326" coordinates={[220, 550]} />
       </div>
       
       {/*Montana Pins */}
