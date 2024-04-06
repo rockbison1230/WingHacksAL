@@ -12,13 +12,15 @@ const handlePinClick = () => {
 };
 
 // want to generate a text box w a background, not just text when click event
-return (
-  <div className="pin-container" style={{ position: 'absolute', left: coordinates[1], top: coordinates[0] }}>
+return ( //had to edit z-index bc pins were on top of the msges.
+  <div className="pin-container" style={{ position: 'absolute', left: coordinates[1], top: coordinates[0], zIndex:-1}}>
     <FaMapMarkerAlt className="pin-icon" onClick={handlePinClick} />
     {showTextBox && (
-      <div className = "textbox-container">
+      <div className = "textbox-container" style={{position:'absolute', zIndex:0}}>
         <div className = "textbox-background">
-          <div className = "textbox-content">{text}</div>
+          <div className = "textbox-content">{text}
+          <button className='exitButton' onClick={handlePinClick}>X
+            </button></div>
         </div>
       </div>
     )}
