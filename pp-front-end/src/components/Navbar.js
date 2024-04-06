@@ -10,7 +10,7 @@ function Navbar(){
             <ul>
             <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>
 
-                <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>
+                <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">Purpose & Resources</a></li>
             </ul>
           
         </nav>
