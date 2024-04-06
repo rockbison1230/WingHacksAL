@@ -11,18 +11,18 @@
   
    .textbox-container{
     position: absolute;
-    left: 50%;
-    top: 100%;
+    left: 20%;
+    top: -700%;
     transform: translateX(-50%);
    }
 
    .textbox-background{
-    background-color: rgb(224, 193, 193);
-    border: 2px solid rgb(87, 18, 18);
+    background-color: rgb(247, 230, 230);
+    border: 2px solid rgb(164, 62, 62);
     border-radius: 5px;
     padding: 20px;
     width: 400px;
-    height: 100px;
+    height: 120px;
    }
 
    .textbox-content{
