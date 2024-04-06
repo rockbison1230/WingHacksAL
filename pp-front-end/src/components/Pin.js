@@ -18,7 +18,9 @@ return (
     {showTextBox && (
       <div className = "textbox-container">
         <div className = "textbox-background">
-          <div className = "textbox-content">{text}</div>
+          <div className = "textbox-content">{text}
+          <button className='exitButton' onClick={handlePinClick}>X
+            </button></div>
         </div>
       </div>
     )}
