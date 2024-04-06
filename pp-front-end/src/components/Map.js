@@ -14,6 +14,7 @@ class Map extends Component {
     return (
       <div className="map-container">
         <USAMap onClick={this.mapHandler} />
+        
         {/* Grouping Florida pins */}
         <div className="pins-container">
           {/* Women's Resource Center */} 
@@ -31,6 +32,7 @@ class Map extends Component {
         </div>
 
         {/*California Pins */ }
+        <div className = "pins-container">
         {/*Rachel's Women's Center*/} 
         <Pin text="Rachel's Women's Center. Provides a safe, supportive environment and opportunities for women with few or no resoures to begin and continue self-help efforts. Address: 759 Eighth Ave, San Diego, CA 92101 Website: ccdsd.org Phone Number: (619) 696-0873" coordinates={[360, 90]} />
         {/*University Homeless Women Center*/} 
@@ -46,6 +48,7 @@ class Map extends Component {
         {/*The Arroyo - Women's Shelter*/} 
         <Pin text="The Arroyo - Women's Shelter. Provides housing and critical, life-saving services that end homelessness, for good. Address: 12860 Arroyo St, Sylmar, CA 91342 Website: lafh.org Phone Number: (747) 277-9507" coordinates={[172, 69]} />
       </div>
+</div>
     );
   }
 }
