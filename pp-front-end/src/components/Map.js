@@ -16,7 +16,7 @@ class Map extends Component {
 
       <>
       {/*had to do inline..*/}
-      <h2 style={{position:'relative', marginTop:'200px', fontSize:'60px'}}>Mapped Resources Across the U.S.</h2> 
+      <h2 style={{position:'relative', marginTop:'50vh', transform: 'translateY(-50%)', fontSize:'43px'}}>Mapped Resources Across the U.S.</h2> 
       <div className="map-container">
         <USAMap onClick={this.mapHandler} />
         {/* Grouping Florida pins */}
@@ -34,7 +34,7 @@ class Map extends Component {
           {/* Mary & Martha House*/}
           <Pin style={{}}text="Mary & Martha House. Offers sanctuary of safety and support to women and their children. Address: 312 S U.S. Hwy 41, Ruskin, FL 33570 Website: marymarthahouse.org Phone Number: (813) 645-7874" coordinates={[490, 738]} />
           {/* Trinity Rescue Mission */}
-          <Pin text="<bTrinity Rescue Mission. Helps all types of women and their children, no matter what kind of background they come from, or what their needs are. Address: 622 W Union St, Jacksonville, FL 32202 Website: trinityrescue.org Phone Number: (904) 355-1205" coordinates={[450, 745]} />
+          <Pin text="Trinity Rescue Mission. Helps all types of women and their children, no matter what kind of background they come from, or what their needs are. Address: 622 W Union St, Jacksonville, FL 32202 Website: trinityrescue.org Phone Number: (904) 355-1205" coordinates={[450, 745]} />
         </div>
 
         {/*California Pins */ }
