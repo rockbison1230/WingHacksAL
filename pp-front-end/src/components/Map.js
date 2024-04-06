@@ -15,10 +15,10 @@ class Map extends Component {
     return (
       <div className="map-container">
         <USAMap onClick={this.mapHandler} />
-        {/* Grouping pins */}
+        {/* Grouping Florida pins */}
         <div className="pins-container">
           {/* Women's Resource Center */} 
-          <Pin text="Women's Resource Center. A 501(C)3 nonprofit that provides women of all ages and backgrounds with support, resources, and services. \Address: 340 S Tuttle Ave, Sarasota, FL 34237 Website: mywrc.org Phone Number: (941) 747-6797" coordinates={[510, 738]} />
+          <Pin text="Women's Resource Center. A 501(C)3 nonprofit that provides women of all ages and backgrounds with support, resources, and services. Address: 340 S Tuttle Ave, Sarasota, FL 34237 Website: mywrc.org Phone Number: (941) 747-6797" coordinates={[510, 738]} />
           {/* Lotus House Women's Shelter*/}
           <Pin text="Lotus House Women's Shelter. The largest shelter for women and children in the country: provides shelter, resources, and comprehensive supportive services. Address: 217 NW 15th St, Miami, FL 33136 Website: lotushouse.org Phone Number: (305) 438-0556" coordinates={[530, 784]} />
           {/* Mary's Home of the Treasure Coast */}
@@ -30,6 +30,22 @@ class Map extends Component {
           {/* Trinity Rescue Mission */}
           <Pin text="Trinity Rescue Mission. Helps all types of women and their children, no matter what kind of background they come from, or what their needs are. Address: 622 W Union St, Jacksonville, FL 32202 Website: trinityrescue.org Phone Number: (904) 355-1205" coordinates={[450, 745]} />
         </div>
+
+        {/*California Pins */ }
+        {/*Rachel's Women's Center*/} 
+        <Pin text="Rachel's Women's Center. Provides a safe, supportive environment and opportunities for women with few or no resoures to begin and continue self-help efforts. Address: 759 Eighth Ave, San Diego, CA 92101 Website: ccdsd.org Phone Number: (619) 696-0873" coordinates={[360, 90]} />
+        {/*University Homeless Women Center*/} 
+        <Pin text="University Homeless Women Center. Profides food for homeless and low income families in need. Address: 1450 University Ave f127, Riverside, CA 92507 Website: checkbca.org Phone Number: (951) 224-9438" coordinates={[320, 83]} />
+        {/*WISEPlace*/} 
+        <Pin text="WISEPlace. Provides women with safe shelter, counseling, and mental health services. Address: 1411 N Broadway, Santa Ana, CA 92706 Website: wiseplace.org Phone Number: (714) 542-3577" coordinates={[330, 60]} />
+        {/* */} 
+        <Pin text=": " coordinates={[300, 50]} />
+         {/* */} 
+        <Pin text=": " coordinates={[510, 738]} />
+        {/* */} 
+        <Pin text=": " coordinates={[510, 738]} />
+        {/* */} 
+        <Pin text=": " coordinates={[510, 738]} />
       </div>
     );
   }
