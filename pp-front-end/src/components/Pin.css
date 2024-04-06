@@ -18,12 +18,12 @@
 }
 
 .textbox-background {
-  background-color: rgb(224, 193, 193);
+  background-color: rgb(235, 211, 211);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 20px;
   width: 200px;
-  height: 400px;
+  height: 200px;
 }
 
 .textbox-content {
