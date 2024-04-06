@@ -1,21 +1,44 @@
-#logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  float: left;
-}
-
-a {
+.logo {
+  /*nav*/
   display: flex;
-  align-items: center;
-  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+#logo {
+  /*actual logo*/
+  width: 200px;
+  height: auto;
+  margin-right: 100px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.navlinks {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.navlinks ul {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  color: pink;
+}
+
+.navlinks li {
+  margin: 10px 90px; /* Adjust margin as needed */
+}
+
+.navlinks a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  font-weight: lighter;
 }
