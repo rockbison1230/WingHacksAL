@@ -8,7 +8,7 @@ function Navbar(){
     return(
         <nav>
             <div id = "logo"> 
-            <img src={logo} alt=" " width="250" height="250"/>
+            <img src={logo} alt=" " width="260" height="260"/>
             </div>
             <ul>
             <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>

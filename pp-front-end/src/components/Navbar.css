@@ -21,7 +21,8 @@ li {
 a {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 /* pink background for 'Purpose' explanation */
