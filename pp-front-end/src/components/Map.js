@@ -48,6 +48,20 @@ class Map extends Component {
         {/*The Arroyo - Women's Shelter*/} 
         <Pin text="The Arroyo - Women's Shelter. Provides housing and critical, life-saving services that end homelessness, for good. Address: 12860 Arroyo St, Sylmar, CA 91342 Website: lafh.org Phone Number: (747) 277-9507" coordinates={[172, 69]} />
       </div>
+
+      {/*Montana Pins */}
+      <div className = "pins-container">
+         {/*Great Falls Rescue Mission Women's Shelter*/} 
+         <Pin text= "Great Falls Rescue Mission Women's Shelter. Provide guidance to help the homeless find a purpose and a place to belong. Address: 317 2nd Ave S, Great Falls, MT 59405 Website: greatfallsrescuemission.org Phone Number: (406) 452-1483" coordinates={[70, 240]} />
+         {/*Friendship Center of Helena*/} 
+         <Pin text= "Friendship Center of Helena. Serves those affected by domestic violence, sexual assault, and stalking. Address: 1430 N Sanders St, Helena, MT 59601 Website: thefriendshipcenter.org Phone Number: (406) 442-6800" coordinates={[80, 220]} />
+         {/*Women's Resource Center*/} 
+         <Pin text="Women's Resource Center. Provides advocacy services to survivors of domestic and sexual violence. Address: 236 E Reeder St, Dillon, MT 59725 Website: wrcmt.org Phone Number: (406) 683-6106" coordinates={[115, 215]} />
+         {/*Haven*/} 
+         <Pin text= "Haven. Provides confidential support, counseling, and a safe place for anyone impacted by domestic violence, sexual assault, and more. Address: 132 Pond Row, Bozeman, MT 59718 Website: havenmt.org Phone Number: (406) 586-4111" coordinates={[100, 230]} />
+         {/*YMCA Gateway House*/} 
+         <Pin text="YMCA Gateway House. Provides emergency and transitional services to survivors of dometic violence, sexual assault, and human trafficking. Address: 909 Wyoming Ave, Billings, MT 59101 Website: ywcabillings.org Phone Number: (406) 245-4472" coordinates={[110, 290]} />
+      </div>
 </div>
     );
   }
