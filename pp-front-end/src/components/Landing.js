@@ -2,6 +2,7 @@ import {React, useState} from 'react';
 import './Landing.css';
 import flower from "../assets/flower.png";
 import axios from 'axios'
+import Map from './Map'; //importing map component
 
 
 function Landing(){
@@ -33,7 +34,7 @@ function Landing(){
                     <p>
                     Our map locates women's shelters within any state entered in the search field below.
                     Using any of the pins which are generated depending onthe number of resources within
-                    the state, you can then click on any to get the location, address, and phone number of
+                    the state, you can then click on any to get the address, website, and phone number of
                     the organization.
                     </p>
             </div>
@@ -56,7 +57,9 @@ function Landing(){
 
     <div id="searchBar">
     <input type="text" placeholder="Enter a state"/>
-
+        <div className = "map-container">
+        <Map id="myMap" /> {/* rendering map */}
+        </div>
     </div>
     </>   
     );

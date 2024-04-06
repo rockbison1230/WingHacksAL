@@ -1,0 +1,30 @@
+.pin-container {
+    position: fixed;
+    top: 90%; 
+    right: 160px;
+    transform: translateY(-50%);
+  }
+  
+  .pin-icon {
+    color: red; 
+   }
+  
+   .textbox-container{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+   }
+
+   .textbox-background{
+    background-color: rgb(224, 193, 193);
+    border: 2px solid rgb(87, 18, 18);
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+   }
+
+   .textbox-content{
+    color: black;
+   }
