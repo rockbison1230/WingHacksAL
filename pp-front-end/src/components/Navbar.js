@@ -7,7 +7,9 @@ import './Navbar.css'
 function Navbar(){
     return(
         <nav>
-        <img src={logo} alt=" " width="250" height="250"/>
+            <div id = "logo"> 
+            <img src={logo} alt=" " width="250" height="250"/>
+            </div>
             <ul>
             <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>
 
