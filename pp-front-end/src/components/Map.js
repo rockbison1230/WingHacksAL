@@ -113,10 +113,12 @@ class Map extends Component {
          <Pin text= "Every Woman's Place, Inc. Provides services for victims and survivors of sexual assault. Address: 1221 W Laketon Ave, Muskegon, MI 49441 Website: everywomansplace.org Phone Number: (231) 759-7909" coordinates={[150, 630]} />
          </div>
 
-         {/*Kentucky Pins */}
+         {/*Washington Pins */}
         <div className = "pins-container">
-         {/**/} 
-         <Pin text= "" coordinates={[75, 879]} />
+         {/*Everett Gospel Mission Women and Children's Shelter*/} 
+         <Pin text= "Everett Gospel Mission Women And Children's Shelter. Assists homeless women in receiving necessities and care. Address: 5126 S 2nd Ave, Everett, WA 98203 Website: egmission.org" coordinates={[50, 100]} />
+         {/*Hope House*/} 
+         <Pin text= "Hope House. Offers women personal care, including food, clean clothes, and hygiene items. Address: 318 S Adams St #99201, Spokane, WA 99201 Website: voaspokane.org Phone Number: (509) 816-1669" coordinates={[50, 150]} />
          </div>
 
          {/*Maine Pins */}
