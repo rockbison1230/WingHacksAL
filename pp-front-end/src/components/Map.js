@@ -71,6 +71,16 @@ class Map extends Component {
         Phone Number: (319) 351-0326" coordinates={[220, 550]} />
       </div>
       
+      {/*Colorado Pins */}
+      <div className = "pins-container">
+         {/*YWCA*/} 
+         <Pin text= "YWCA. Dedicated to empowering women and promoting peace, justice, freedom, and dignity for all. Address: 801 N Santa Fe Ave, Pueblo, CO 81003 Website: ywca.org Phone Number: (719) 542-6904" coordinates = {[290, 330]} />
+         {/*Women Partnering*/} 
+         <Pin text= "Women Partnering. Forms relationships that nuture wholeness of body, mind, and spirit with financially vulnerable women. Address: 961 E Colorado Ave, Colorado Springs, CO 80903 Website: womenpartnering.org Phone Number: (719) 577-9404" coordinates = {[300, 320]} />
+         {/*The Gathering Place*/} 
+         <Pin text= "The Gathering Place. Offers access to basic necessities and care options to women and GNC minorities. Address: 1535 High St, Denver, CO 80218 Website: tgpdenver.org Phone Number: (303) 321-4198" coordinates = {[270, 315]} />
+         </div>
+
       {/*Montana Pins */}
       <div className = "pins-container">
          {/*Great Falls Rescue Mission Women's Shelter*/} 
