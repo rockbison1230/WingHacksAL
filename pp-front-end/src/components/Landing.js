@@ -1,7 +1,6 @@
 import {React, useState} from 'react';
 import './Landing.css';
 import flower from "../assets/flower.png";
-import axios from 'axios'
 import Map from './Map'; //importing map component
 import './gradient.css'; //importing gradient
 
@@ -13,7 +12,6 @@ function Landing(){
      <div className = "gradient-background">
         
      <div id='secondRectangle'>
-
         <div className='purposeBg'>
             <div className='purposetext'>
                 <div className='purposeheader'>
@@ -51,11 +49,11 @@ function Landing(){
                     <p>
                         {/* https://yoppie.com/period-poverty */}
                         <ul>
-                            <li>Choose menstruation products from brands that support ending period poverty.</li>
-                            <li>Donate to charity, either global or locally.</li>
+                            <li>Donate to shelters and charities.</li>
                             <li>Attend marches and events.</li>
                             <li>Sign petitions. </li>
                             <li>Donate period products.</li>
+                            <li>Support progressive bills.</li>
                         </ul>
 
                     </p>
@@ -67,7 +65,11 @@ function Landing(){
         <Map id="myMap" /> {/* rendering map */}
         <div className = "container"></div>
         </div>
+<<<<<<< Updated upstream
         </div>
+=======
+
+>>>>>>> Stashed changes
     </>   
     );
 }

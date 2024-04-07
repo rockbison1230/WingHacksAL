@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom";
 import Landing from './components/Landing';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 function App(){
     return (
         <>
@@ -9,6 +9,7 @@ function App(){
         <Routes>
             <Route path="/" element={<Landing/>}/> {/*default page*/}
         </Routes>
+        <Footer/>
         </>
 
     );

@@ -1,0 +1,19 @@
+.footer {
+  background-color: #f8e2e0; /* Set the background color of the footer */
+  padding: 10px 0; /* Add padding to the top and bottom of the footer */
+  color: #333; /* Set the text color */
+  text-align: center; /* Center-align the text */
+  position: fixed; /* Position the footer fixed */
+  bottom: 0; /* Position the footer at the bottom of the viewport */
+  width: 100%; /* Set the width of the footer to 100% */
+  height: 60px;
+}
+
+.footer-container {
+  max-width: 800px; /* Set the maximum width of the footer container */
+  margin: 0 auto; /* Center-align the footer container */
+}
+
+.footer-heading {
+  text-align: center;
+}
