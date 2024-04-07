@@ -105,8 +105,12 @@ class Map extends Component {
 
         {/*Michigan Pins */}
         <div className = "pins-container">
-         {/**/} 
-         <Pin text= "" coordinates={[100, 500]} />
+         {/*All Things Women, Inc*/} 
+         <Pin text= "All Things Women, Inc. Provides services designed to remove the barriers faced by underrepresented populations. Address: 2340 Calvert Ave, Detroit, MI 48206 Website: allthingswomeninc.org Phone Number: (313) 733-6265" coordinates={[150, 650]} />
+         {/*Alternatives For Girls*/} 
+         <Pin text= "Alternatives For Girls. Offers safe shelter, crisis support, and more for homeless young women. Address: 903 W Grand Blvd, Detroit, MI 48208 Website: alternativesforgirls.org Phone Number: (313) 361-4000" coordinates={[160, 660]} />
+         {/*Every Womans Place Inc*/} 
+         <Pin text= "Every Woman's Place, Inc. Provides services for victims and survivors of sexual assault. Address: 1221 W Laketon Ave, Muskegon, MI 49441 Website: everywomansplace.org Phone Number: (231) 759-7909" coordinates={[150, 630]} />
          </div>
 
          {/*Kentucky Pins */}
