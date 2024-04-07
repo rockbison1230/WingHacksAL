@@ -1,12 +1,7 @@
 # WingHacksAL
 
-#
+2024 WiNGHacks Hackathon Project with Amana Martin and Lily Vrionis
 
-hello lilly
+Purpose:
+Basic needs for Ladies Over Time (BLOT) is a web application written in React to bring more awareness to period poverty and other issues that women and gender non-conforming minorities face. BLOT assists users in locating needed assistance in the form of shelters or advocacy centers. To use it, simply click on a pin shown on the map.
 
-OK SO.
-focusing on period poverty. we can have a website thar 1. brings notice to period poverty in the U.S. bc its a pressing issue. we would probabl have to mention lack of data surrounding it tbh.. anyway, ifnogrpahic type website.
-i am thinking of trying to find a way for us to like. locate and find womens shelters where period products could be donated. or just locations in general that accept donations of period products? this would be like, makign a map and stuff. listing... i have an image in my head...
-
-i think what we can do is have a react.js frontend, and a python backend.
-ok python backend proving to be useless actuzlly i think it can all occur in react!!
