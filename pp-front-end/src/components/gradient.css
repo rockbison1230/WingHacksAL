@@ -1,0 +1,7 @@
+/* making a gradient to act as the background of the webpage */
+
+body {
+    background: radial-gradient(circle, #ffffff, #fbf3f6);
+    min-height: 100vh; /* viewport height */
+    margin: 0;
+}

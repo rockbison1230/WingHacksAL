@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: flex-end; /* aligns links to right */
   flex: 1;
+  padding-right: 20px;
 }
 
 .navlinks ul {

@@ -3,11 +3,15 @@ import './Landing.css';
 import flower from "../assets/flower.png";
 import axios from 'axios'
 import Map from './Map'; //importing map component
+import './gradient.css'; //importing gradient
 
 
 function Landing(){
     return(
      <> 
+
+     <div className = "gradient-background">
+        
      <div id='secondRectangle'>
 
         <div className='purposeBg'>
@@ -62,6 +66,7 @@ function Landing(){
         <div className = "map-container">
         <Map id="myMap" /> {/* rendering map */}
         <div className = "container"></div>
+        </div>
         </div>
     </>   
     );
