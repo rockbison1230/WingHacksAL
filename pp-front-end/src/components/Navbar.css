@@ -1,69 +1,45 @@
-#logo {
-  position: fixed;
-  top: 0px;
-  left: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.logo {
+  /*nav*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
 }
 
-ul {
+#logo {
+  /*actual logo*/
+  width: 200px;
+  height: auto;
+  margin-right: 20px
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* aligns links to right */
+  flex: 1;
+  padding-right: 20px;
+}
+
+.navlinks ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: fixed; /* positioning navbar */
-  top: 100px;
-  left: 300px;
-  right: 0;
+  color: pink;
+
 }
 
-li {
-  float: left;
+.navlinks li {
+  margin-left: 20px;
 }
 
-a {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  font-size: 18px;
-}
-
-/* pink background for 'Purpose' explanation */
-
-.background-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -180%);
-  width: 1000px;
-  height: 200px;
-  background: #FFF5F4;
-  border-radius: 174px;
-  z-index: -1;
-}
-
-.textbox-container {
-  position: absolute;
-  top: 20%; 
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%; 
-  max-width: 600px; 
-}
-
-.textbox-container textarea {
-  width: 400%;
-  height: 600px;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: transparent;
-  border: none;
-  resize: none;
-  font-family: Arian, sans-serif;
+.navlinks a {
+  font-size: 20px;
+  text-decoration: none;
   color: black;
+  font-family: "Inter";
+  font-weight: lighter;
 }
 
-.editable-text {
-  font-size: 18px; 
-}
-
-.bold {
-  font-weight: bold;
-}

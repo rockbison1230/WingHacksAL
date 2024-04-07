@@ -1,14 +1,22 @@
 path {
-    pointer-events: all;
-  }
-  path:hover {
-    opacity: 0.50;
-    cursor: pointer;
-  }
+  pointer-events: all;
+}
+path:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
-  .map-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-65%, 50%);
-  }
+.map-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.pins-container {
+  /* position of pins relative to map container here */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0px);
+}

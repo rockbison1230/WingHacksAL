@@ -1,11 +1,97 @@
-body {
-  background-color: #ffffff;
+/*everything within the white rectangle*/
+#secondRectangle {
+  display: flex;
+  justify-content: left;
+
+  margin: 0px auto;
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+
+  width: 1000px;
+  height: 470px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.footer {
+.purposeBg {
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
   background-color: #fff5f4;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.purpose {
+.purposeheader h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.purposeheader img {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+
+.purposetext p {
+  color: black;
+  font-family: "Inter";
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.themap {
+  /*2nd box*/
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
   background-color: #fff5f4;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.maptext p {
+  color: black;
+  font-family: "Inter";
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.thirdDk {
+  /*third box btw*/
+  width: 300px;
+  height: 400px;
+  border-radius: 50px;
+  background-color: #fff5f4;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.thirdDktext p {
+  color: black;
+  font-family: "Inter";
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.thirdDkheader {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+/*acutal map*/
+.white-space {
+  height: 1200px;
 }
