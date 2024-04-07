@@ -94,6 +94,45 @@ class Map extends Component {
          {/*YMCA Gateway House*/} 
          <Pin text="YMCA Gateway House. Provides emergency and transitional services to survivors of dometic violence, sexual assault, and human trafficking. Address: 909 Wyoming Ave, Billings, MT 59101 Website: ywcabillings.org Phone Number: (406) 245-4472" coordinates={[110, 290]} />
       </div>
+
+
+      {/*Arkansas Pins */}
+      <div className = "pins-container">
+         {/*Women's Crisis Center-South*/} 
+         <Pin text= "Women's Crisis Center-South. Focused mission to help women who have faced trauma or need immediate care. Address: 1112 W Washington St, Camden, AR 71701 Phone Number: (870) 836-0375" coordinates={[400, 532]} />
+         {/*NWA Women's Shelter Thrift Store*/} 
+         <Pin text= "NWA Women's Shelter Thrift Store. Provides high-quality access to accessories, appliances, clothes, and essential needs. Address: 1112 W Washington St, Camden, AR 71701 Website: nwaws.org Phone Number: (479) 621-6116" coordinates={[364, 522]} />
+         </div>
+
+        {/*Michigan Pins */}
+        <div className = "pins-container">
+         {/**/} 
+         <Pin text= "" coordinates={[100, 500]} />
+         </div>
+
+         {/*Kentucky Pins */}
+        <div className = "pins-container">
+         {/**/} 
+         <Pin text= "" coordinates={[75, 879]} />
+         </div>
+
+         {/*Maine Pins */}
+        <div className = "pins-container">
+         {/*New Hope Women's Shelter*/} 
+         <Pin text= "New Hope Women's Shelter. Serves the homeless and reaches out to women where they are. Address: 111 N Main St, Solon, ME 04979 Website: newhopeshelter.com Phone Number: (207) 643-6015" coordinates={[75, 879]} />
+         {/*New Hope For Women*/} 
+         <Pin text= "New Hope For Women. Address: 6 Public Safety Way, Belfast, ME 04915 Website: newhopeforwomen.org Phone Number: (207) 338-6569" coordinates={[100, 890]} />
+         </div>
+
+       {/*Pennsylvania Pins */}
+       <div className = "pins-container">
+         {/*Women's Help Center Inc*/} 
+         <Pin text= "Women's Help Center Inc. Provides support to less fortunate women in times of need. Address: 809 Napoleon St, Johnstown, PA 15901 Website: womenshelpcenter.org Phone Number: (814) 536-5361" coordinates={[220, 760]} />
+         {/*Ruth's Place*/} 
+         <Pin text= "Ruth's Place. Provides emergency shelter and personal hygeine equipment to women in need. Address: 425 N Pennsylvania Ave, Wilkes-Barre Township, PA 18702 Website: voapa.org Phone Number: (570) 822-6817" coordinates={[200, 795]} />
+         {/*Women's Center of Beaver County*/} 
+         <Pin text= "Women's Center of Beaver County. Advocates for all victims of domestic violence and sexual assault. Address: 190 3rd St, Beaver, PA 15009 Website: womenscenterbc.org Phone Number: (724) 775-0131" coordinates={[205, 750]} />
+          </div>
 </div>
 </>
     );
