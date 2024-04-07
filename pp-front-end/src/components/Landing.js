@@ -32,10 +32,9 @@ function Landing(){
                 <h3><strong>Our Map</strong></h3>
                 </div>
                     <p>
-                    Our map locates women's shelters within any state entered in the search field below.
-                    Using any of the pins which are generated depending on the number of resources within
-                    the state, you can then click on any to get the address, website, and phone number of
-                    the organization.
+                    Some of the leading causes of period poverty are affordability and accessibility. 
+                    A great resource to turn to is a shelter, as they're likely to provide resources. Our map shows women's shelters within the United States.
+                    Click on any of the pins to get the address, website, and phone number of a women's advocacy center.
                     </p>
             </div>
         </div>
