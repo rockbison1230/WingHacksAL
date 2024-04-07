@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
 import logo from '../assets/blotlogo.png'
+import Map from './Map'; //importing map component
 import './Navbar.css'
 
 function Navbar(){
@@ -21,6 +22,7 @@ function Navbar(){
        
       </nav>
   );
+
 }
 
 export default Navbar;
