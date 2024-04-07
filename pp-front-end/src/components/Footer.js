@@ -11,7 +11,7 @@ function Footer()
             <div className='rowcentercontent'>
                 <div className='colcentertext'>
                     <h2 className='footerheading'>
-                    <a href="/" class="logo">Blot</a>
+                    <p className="logo"> Blot</p>
                     </h2>
                     <p className='menu'>
                         <a href="/">Home</a>
@@ -20,11 +20,6 @@ function Footer()
                         <a href="/">Learn More</a>
                     </p>
                 </div>
-            </div>
-            <div className='centermoretext'>
-                <p className='ha..'>
-                    "Copyright.."
-                </p>
             </div>
         </div>
         </footer>

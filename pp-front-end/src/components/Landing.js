@@ -8,7 +8,6 @@ import './gradient.css'; //importing gradient
 function Landing(){
     return(
      <> 
-
      <div className = "gradient-background">
         
      <div id='secondRectangle'>
@@ -66,6 +65,9 @@ function Landing(){
         <div className = "container"></div>
         </div>
         </div>
+        <div className="white-space"></div>
+
+
 
     </>   
     );

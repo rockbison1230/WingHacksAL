@@ -5,7 +5,7 @@
 
   margin: 0px auto;
 
-  margin-top: 20px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
@@ -48,6 +48,7 @@
 }
 
 .themap {
+  /*2nd box*/
   width: 300px;
   height: 400px;
   border-radius: 50px;
@@ -65,13 +66,8 @@
   line-height: 1.5;
 }
 
-.mapheader {
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-}
-
 .thirdDk {
+  /*third box btw*/
   width: 300px;
   height: 400px;
   border-radius: 50px;
@@ -96,3 +92,6 @@
 }
 
 /*acutal map*/
+.white-space {
+  height: 1200px;
+}

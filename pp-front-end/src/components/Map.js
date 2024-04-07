@@ -17,6 +17,7 @@ class Map extends Component {
       <>
       {/*had to do inline..*/}
       <h2 style={{position:'relative', marginTop:'50vh', transform: 'translateY(-50%)', fontSize:'43px'}}>Mapped Resources Across the U.S.</h2> 
+     
       <div className="map-container">
         <USAMap onClick={this.mapHandler} />
         {/* Grouping Florida pins */}
@@ -139,6 +140,7 @@ class Map extends Component {
          <Pin text= "Women's Center of Beaver County. Advocates for all victims of domestic violence and sexual assault. Address: 190 3rd St, Beaver, PA 15009 Website: womenscenterbc.org Phone Number: (724) 775-0131" coordinates={[205, 750]} />
           </div>
 </div>
+
 </>
     );
   }
