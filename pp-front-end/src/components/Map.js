@@ -16,7 +16,7 @@ class Map extends Component {
 
       <>
       {/*had to do inline..*/}
-      <h2 style={{position:'relative', marginTop:'50vh', transform: 'translateY(-50%)', fontSize:'43px'}}>Mapped Resources Across the U.S.</h2> 
+      <h2 style={{position:'relative', marginTop:'60vh', transform: 'translateY(-50%)', fontSize:'43px'}}>Mapped Resources Across the U.S.</h2> 
      
       <div className="map-container">
         <USAMap onClick={this.mapHandler} />
