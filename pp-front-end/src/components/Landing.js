@@ -65,11 +65,8 @@ function Landing(){
         <Map id="myMap" /> {/* rendering map */}
         <div className = "container"></div>
         </div>
-<<<<<<< Updated upstream
         </div>
-=======
 
->>>>>>> Stashed changes
     </>   
     );
 }
