@@ -11,11 +11,7 @@ function Navbar(){
 <div className='navlinks'>
 <ul>
           <div>
-          <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">What is Period Poverty?</a></li>
-          </div>
-
-          <div>
-          <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">Purpose and Resources</a></li>
+          <li><a href="https://github.com/vandit-bera/React-Routing/blob/master/src/component/Navbar.js">Our Movement & What You Can Do To Help</a></li>
           </div>
 
         </ul>
