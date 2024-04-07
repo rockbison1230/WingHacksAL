@@ -67,8 +67,7 @@ class Map extends Component {
         {/*Salvation Army*/} 
         <Pin text= "The Salvation Army Women & Children's Emergency Shelter. Supports homeless women and domestic abuse victims. Address: 603 S Hackett Rd, Waterloo, IA 50701 Phone Number: (319) 232-0397" coordinates={[209, 540]} />
         {/*Shelter House*/} 
-        <Pin text= "Shelter House. Gives resources to tjose in need, such as health care, employment, and housing. Address: 429 Southgate Ave, Iowa City, IA 52240 Website: shelterhouseiowa.org
-        Phone Number: (319) 351-0326" coordinates={[220, 550]} />
+        <Pin text= "Shelter House. Gives resources to those in need, such as health care, employment, and housing. Address: 429 Southgate Ave, Iowa City, IA 52240 Website: shelterhouseiowa.org Phone Number: (319) 351-0326" coordinates={[220, 550]} />
       </div>
       
       {/*Colorado Pins */}
